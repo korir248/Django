@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '--go6(&#db-utlc!_c-#t^&vy!l!6=)ne9&94e%k2!^rnrl_ai'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['anakin-skywalker.herokuapp.com','127.0.0.1']
 
 
 # Application definition
